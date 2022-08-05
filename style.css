@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    padding: 10px;
+    min-height: fit-content;
+    background: none;
+}
+
+ul{
+    float: right;
+    padding: 0 60px;
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+div.heading h1{
+    padding: 10% 20%;
+    text-align: right;
+    font-size: 4vw;
+    float: right;
+}
