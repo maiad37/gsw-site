@@ -1,38 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.header{
-    width: 100vw;
-    height: 10vh;
-    padding: 10px;
-    min-height: fit-content;
-    background: none;
+.header {
+  width: 100vw;
+  height: 10vh;
+  padding: 10px;
+  min-height: fit-content;
+  background: none;
 }
 
-ul{
-    float: right;
-    padding: 0 60px;
-    list-style-type: none;
-    overflow: hidden;
-    font-size: 20px;
+ul {
+  float: right;
+  padding: 0 60px;
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 20px;
 }
 
-li{
-    float: left;
+li {
+  float: left;
 }
 
-li a{
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+a:hover {
+  text-decoration: underline;
 }
 
-div.heading h1{
-    padding: 10% 20%;
-    text-align: right;
-    font-size: 4vw;
-    float: right;
+div.heading h1 {
+  padding: 10% 20%;
+  text-align: right;
+  font-size: 4vw;
+  float: right;
+}
+h1,
+a {
+  font-family: "Yeseva One", cursive;
 }
