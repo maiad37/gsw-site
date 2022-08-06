@@ -7,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
-    <title></title>
+    <title>Golden State Warriors</title>
     <style>
         .landing {
             height: 100vh;
             color: white;
             background-size: 100vw;
-            background-position: top;
             background-image: url(./images/basketball-bw.jpg);
         }
 
@@ -24,18 +23,37 @@
         div.text {
             font-size: 3vh;
             text-align: justify;
+            font-family: monospace;
+            line-height: 2;
         }
 
         div.footer {
             background-color: #333;
             width: 100%;
-            padding: 20px;
-            height: 15vh;
+            padding: 5vh 10vw;
+            height: 15%;
             color: white;
         }
 
         p {
             margin-bottom: 1em;
+        }
+
+        h2 {
+            font-size: 5vh;
+        }
+
+        div.logo {
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        img#logo {
+            width: 40vw;
+        }
+
+        #warriors {
+            font-weight: 800;
         }
     </style>
 </head>
@@ -47,25 +65,30 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./players.html">Players</a></li>
                 <li><a href="./game-schedule.html">Game Schedule</a></li>
-                <li><a href="./random.html">Random</a></li>
+                <li><a href="./highlights.html">Highlights</a></li>
             </ul>
 
         </div>
         <div class="heading">
-            <h1><em><b>Golden State <br>Warriors</b></em></h1>
+            <h1><b>Golden State <br>Warriors</b></h1>
         </div>
     </div>
 
     <div class="container">
-        <h1 style="text-align: center; margin-bottom:20px;">The Golden State Warriors</h1>
+        <h2 style="text-align: center; margin-bottom:10vh;">The Golden State Warriors</h2>
         <div class="text">
             <p>The Golden State Warriors are an American professional basketball team based in San Francisco. The
                 Warriors compete in the NBA, as a member of the league's Western Conference Pacific Division.</p>
 
-            <p>The Warriors have won six NBA championships and one Basketball Association of America (BAA) title.</p>
+            <p>The Warriors have won <b>six</b> <em>National Basketball Association</em> championships and one
+                <em>Basketball Association of America </em> title.
+            </p>
             <br>
+            <div class="logo"><img src="./images/Golden-State-Warriors-logo.png" alt="logo" id="logo"></div>
+
             <h3>- History</h3>
-            <p>The history of the Golden State Warriors began in Philadelphia in 1946. In 1962, the franchise was
+            <p>The history of the <span id="warriors">Golden State Warriors</span> began in Philadelphia in 1946. In
+                1962, the franchise was
                 relocated to San Francisco, California and became known as the <em>San Francisco Warriors </em>until
                 1971, when its name was changed to the current <em>Golden State Warriors</em>. Along with their
                 inaugural championship win in the 1946–47 season, the Warriors have won five others in the team's
