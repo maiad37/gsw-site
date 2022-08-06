@@ -1,2 +1,2 @@
 # GSW page
-- Created for training activity (HTML/CSS)
+- Created for the training activity (HTML/CSS)
