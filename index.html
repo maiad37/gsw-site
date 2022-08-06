@@ -9,33 +9,83 @@
 
     <title></title>
     <style>
-        body {
+        .landing {
+            height: 100vh;
             color: white;
             background-size: 100vw;
+            background-position: top;
             background-image: url(./images/basketball-bw.jpg);
+        }
+
+        div.container {
+            padding: 10vh 10vw;
+        }
+
+        div.text {
+            font-size: 3vh;
+            text-align: justify;
+        }
+
+        div.footer {
+            background-color: #333;
+            width: 100%;
+            padding: 20px;
+            height: 15vh;
+            color: white;
+        }
+
+        p {
+            margin-bottom: 1em;
         }
     </style>
 </head>
 
 <body>
-    <div class="header">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./players.html">Players</a></li>
-            <li><a href="./game-schedule.html">Game Schedule</a></li>
-            <li><a href="./random.html">Random</a></li>
-        </ul>
-    </div>
-    <div class="container">
+    <div class="landing">
+        <div class="header">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./players.html">Players</a></li>
+                <li><a href="./game-schedule.html">Game Schedule</a></li>
+                <li><a href="./random.html">Random</a></li>
+            </ul>
+
+        </div>
         <div class="heading">
-            <h1><b>Golden State <br>Warriors</b></h1>
-            <p>The Golden State Warriors are an American professional basketball team based in San Francisco. The
-                Warriors compete in the NBA, as a member of the league's Western Conference Pacific Division</p>
+            <h1><em><b>Golden State <br>Warriors</b></em></h1>
         </div>
     </div>
-    <footer>
 
-    </footer>
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom:20px;">The Golden State Warriors</h1>
+        <div class="text">
+            <p>The Golden State Warriors are an American professional basketball team based in San Francisco. The
+                Warriors compete in the NBA, as a member of the league's Western Conference Pacific Division.</p>
+
+            <p>The Warriors have won six NBA championships and one Basketball Association of America (BAA) title.</p>
+            <br>
+            <h3>- History</h3>
+            <p>The history of the Golden State Warriors began in Philadelphia in 1946. In 1962, the franchise was
+                relocated to San Francisco, California and became known as the <em>San Francisco Warriors </em>until
+                1971, when its name was changed to the current <em>Golden State Warriors</em>. Along with their
+                inaugural championship win in the 1946–47 season, the Warriors have won five others in the team's
+                history, including another in Philadelphia after the 1955–56 season, and five more as Golden State after
+                the 1974–75, 2014–15, 2016–17, 2017–18 and 2021-22 seasons.</p>
+        </div>
+
+    </div>
+    <div class="footer">
+        <h3>References:</h3>
+        <br>
+        <p><a href="https://www.nba.com/team/1610612744/warriors">https://www.nba.com/team/1610612744/warriors</a></p>
+        <p><a
+                href="https://en.wikipedia.org/wiki/History_of_the_Golden_State_Warriors">https://en.wikipedia.org/wiki/History_of_the_Golden_State_Warriors</a>
+        </p>
+        <p><a
+                href="https://www.britannica.com/topic/Golden-State-Warriors">https://www.britannica.com/topic/Golden-State-Warriors</a>
+        </p>
+
+    </div>
 </body>
 
 </html>
